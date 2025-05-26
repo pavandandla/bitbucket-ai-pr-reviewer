@@ -42,7 +42,7 @@ def lambda_handler(event, context):
         )
         openai = OpenAIClient(
             api_key=os.environ.get('OPENAI_API_KEY'),
-            model=os.environ.get('OPENAI_MODEL', 'gpt-4-1106-preview')
+            #model=os.environ.get('OPENAI_MODEL', 'gpt-4-1106-preview')
         )
         
         # Get PR diff
