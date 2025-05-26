@@ -144,9 +144,8 @@ Format your response as a JSON array of objects with the following structure:
 ]
 
 Here's the diff:
-```diff
 {diff_content}
-```"""
+"""
     
     def _parse_response(self, response_text):
         """
